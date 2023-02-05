@@ -15,18 +15,20 @@ site, so when disinfecting the site, use the report generated in the "paranoid" 
 red in the report.
 
 Starting the scanner:
-php ai-bolit.php --path=PATH_TO_FOLDER_SITE
+
+```php ai-bolit.php --path=PATH_TO_FOLDER_SITE```
 
 If you run the scanner in command line mode, then the mode number can be specified via the --mode parameter.
 
-php ai-bolit.php --mode=1 is a normal mode check (diagnostics)
-php ai-bolit.php --mode=2 is paranoid mode check (for cure)
+`php ai-bolit.php --mode=1 is a normal mode check (diagnostics)`
+
+`php ai-bolit.php --mode=2 is paranoid mode check (for cure)`
 
 
 
 
 Express check (not recommended for website treatment):
--------------------------------------------------- ----------------
+--------------------------------
 
 1. in the file /ai-bolit/ai-bolit.php find the line
 define('PASS', '....
