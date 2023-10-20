@@ -1,4 +1,4 @@
-The AI-BOLIT scanner The AI-BOLIT scanner is designed to check the site for viruses and hacking. It can be used both as a preventive measure to regularly check the site for a virus, and to search for hacker shells, backdoors, phishing pages, viral inserts, doorways, spam links and other malicious fragments in the site files.
+The AI-BOLIT Fork scanner The AI-BOLIT Fork scanner is designed to check the site for viruses and hacking. It can be used both as a preventive measure to regularly check the site for a virus, and to search for hacker shells, backdoors, phishing pages, viral inserts, doorways, spam links and other malicious fragments in the site files.
 
 Scanning can be performed either directly on the hosting (it is recommended to run the scanner in command line mode via SSH) or on a local computer under any operating system (Windows, MacOS X, *nix). The AI-BOLIT scanner checks files against its own anti-virus database, and also uses special heuristics to detect new (still unknown) malicious fragments. If dangerous fragments are detected, it generates a report with a list of detected files in html or text format.
 
